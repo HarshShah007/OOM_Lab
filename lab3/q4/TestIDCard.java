@@ -6,7 +6,8 @@ public class TestIDCard {
 		System.out.println(card2.getName());
 
 		card1.setID(234);
-
+		card1.setFilename("OOM LAB 3");
 		System.out.println(card1.getID());
+		System.out.println(card1.getFilename());
 	}
 }

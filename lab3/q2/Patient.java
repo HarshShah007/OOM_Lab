@@ -1,12 +1,11 @@
 public class Patient extends Person {
-
 	String patientNumber;
 	String hospital;
 	String yearOfJoining;
 	Money fees;
 
-	public Patient(String name, String address, String patientNumber, String hospital, String yearOfJoining) {
-		super(name, address);
+	public Patient(String newname, String newaddress, String patientNumber, String hospital, String yearOfJoining) {
+		super(newname, newaddress);
 		this.patientNumber = patientNumber;
 		this.hospital = hospital;
 		this.yearOfJoining = yearOfJoining;
